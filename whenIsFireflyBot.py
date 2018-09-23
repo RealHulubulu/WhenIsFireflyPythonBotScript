@@ -15,6 +15,6 @@ for comment in comments:
     author = comment.author # Fetch author
     if 'when is firefly' in text.lower():
         # Generate a message
-        message = "Hey, u/{0}, Firefly is June 20th to the 23rd, 2019".format(author)
+        message = "Hey, u/{0}, Firefly is June 20th to the 23rd, 2019. Beep Boop!".format(author)
 
         comment.reply(message) # Send message
